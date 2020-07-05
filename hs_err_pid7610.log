@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f90b6b30401, pid=7610, tid=7611
+#
+# JRE version: OpenJDK Runtime Environment (11.0.7+10) (build 11.0.7+10-post-Ubuntu-2ubuntu218.04)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.7+10-post-Ubuntu-2ubuntu218.04, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x2401]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/tilak/Documents/WebApplication/springapp/core.7610)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:33053,suspend=y,server=n -Dmaven.multiModuleProjectDirectory=/home/tilak/Documents/WebApplication/springapp -Dmaven.home=/opt/idea/plugins/maven/lib/maven3 -Dclassworlds.conf=/opt/idea/plugins/maven/lib/maven3/bin/m2.conf -javaagent:/opt/idea/lib/rt/debugger-agent.jar -Dfile.encoding=UTF-8 org.codehaus.classworlds.Launcher -Didea.version=2018.3.5 spring-boot:run
+
+Host: 
